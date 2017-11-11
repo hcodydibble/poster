@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 requires = [
     'requests'
@@ -18,16 +18,13 @@ setup(
     author='H. Cody Dibble',
     author_email='hcodydibble@gmail.com',
     license='MIT',
-    packages=find_packages(),
-    include_package_data=True,
-    zip_safe=False,
     extras_require={
         'test': tests_require,
     },
     install_requires=requires,
     entry_points={
         'console_scripts': [
-            'post = src.poster:main',
+            'post = poster.src.poster:main',
         ],
     },
 )
