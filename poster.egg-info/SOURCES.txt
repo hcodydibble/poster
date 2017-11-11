@@ -1,4 +1,6 @@
 README.md
+setup.py
+poster/__init__.py
 poster.egg-info/PKG-INFO
 poster.egg-info/SOURCES.txt
 poster.egg-info/dependency_links.txt
